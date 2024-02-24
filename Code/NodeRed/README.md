@@ -20,7 +20,7 @@ It's was used a server with Ubuntu 20.04.2 LTS installed with the following soft
     * sudo mysql_secure_installation
         * sudo mysql -u root -p
             * CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
-            * GRANT ALL PRIVILEGES ON '*.*' TO 'user'@'localhost' WITH GRANT OPTION;
+            * GRANT ALL PRIVILEGES ON "*.*" TO 'user'@'localhost' WITH GRANT OPTION;
             * ALTER USER 'user'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
             * FLUSH PRIVILEGES;
 * NodeRed
